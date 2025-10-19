@@ -1,6 +1,6 @@
 import { TaskList } from "./types";
 
-const API_URL = 'http://localhost:3001/api';
+const API_URL = 'https://devvoid-backend.onrender.com/api';
 
 async function fetchAPI(endpoint: string, options: RequestInit = {}) {
   const headers: Record<string, string> = {
